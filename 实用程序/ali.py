@@ -4,7 +4,7 @@ from aligo import *
 import re
 import json
 
-Token = ""
+Token = "3899d727125e4f51a248c6fc4e4dc10c"
 ali = Aligo(refresh_token=Token)
 Folder = re.compile("www.aliyundrive.com/s/([^/]+)(/folder/([^/]+))?")
 
